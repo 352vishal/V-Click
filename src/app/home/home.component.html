@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>All Products</h2>
+      <select>
+        <option value="">Default Shorting</option>
+        <option value="">Short by price</option>
+        <option value="">Short by popularity</option>
+        <option value="">Short by rating</option>
+        <option value="">Short by sale</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-4" *ngFor="let item of trendyProducts">
+        <img src="{{item.image}}" alt="" />
+        <h4>{{item.name}}</h4>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>{{item.price}}</p>
+        <p>{{item.color}}</p>
+        <div class="product-footer">
+          <a routerLink="/details/{{item.id}}">View Details</a>
+          <a href="">Add to Cart</a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="page-btn">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>&#8594;</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  var MenuItems = document.getElementById('MenuItems');
+  MenuItems.style.maxHeight = '0px';
+
+  function menutoggle() {
+    if (MenuItems.style.maxHeight == '0px') {
+      MenuItems.style.maxHeight = '200px';
+    } else {
+      MenuItems.style.maxHeight = '0px';
+    }
+  }
+</script>

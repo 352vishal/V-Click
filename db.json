@@ -1,0 +1,119 @@
+{
+  "seller": [
+    {
+      "name": "vishal hariyani",
+      "email": "vishalhariyani5@gmail.com",
+      "password": "vishal@123",
+      "id": 1
+    },
+    {
+      "name": "yash hariyani",
+      "email": "yashhariyani5@gmail.com",
+      "password": "yash@123",
+      "id": 2
+    },
+    {
+      "name": "Karan Singh",
+      "email": "karan.singh@gmail.com",
+      "password": "karan@123",
+      "id": 3
+    },
+    {
+      "name": "vicky kaushal",
+      "email": "vicky.kaushal@gmail.com",
+      "password": "vicky@123",
+      "id": 4
+    },
+    {
+      "name": "varun dhavan",
+      "email": "varun.dhavan@gmail.com",
+      "password": "varun@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Moto edge 30",
+      "price": "₹25,000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "5G , Ram 8Gb ,Memory 128Gb ,Snapdragon Processor ,4000Mh Battery",
+      "image": "https://www.jiomart.com/images/product/original/492912754/motorola-moto-edge-30-5g-128gb-8gb-ram-meteor-grey-mobile-phone-digital-o492912754-p591469909-0-202205192213.jpeg?im=Resize=(420,420)",
+      "id": 1
+    },
+    {
+      "name": "Apple iPhone 14",
+      "price": "₹130,000",
+      "category": "Mobile",
+      "color": "purpal",
+      "description": "Apple product",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yzJoE7WlL._SX679_.jpg",
+      "id": 2
+    },
+    {
+      "name": "Noise Pulse 2 Max",
+      "price": "₹2,499",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
+      "id": 5
+    },
+    {
+      "name": "Sony XB910N Headphone",
+      "price": "₹14,990",
+      "category": "Headphone ",
+      "color": "Black",
+      "description": "Sony XB910N Wireless Bluetooth Headphone with Extra Bass, Upto 30 hrs of playtime, Multipoint connection, Voice assistant, Noise cancellation, Extra",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697621646/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/248765_vmyvua.png",
+      "id": 6
+    }
+  ],
+  "user": [
+    {
+      "name": "vishal hariyani",
+      "email": "vishal.hariyani41@gmail.com",
+      "password": "vishal@123",
+      "id": 1
+    },
+    {
+      "name": "Yash Hariyani",
+      "email": "yashhariyani5@gmail.com",
+      "password": "yash123",
+      "id": 2
+    },
+    {
+      "name": "priya divadi",
+      "email": "priya.divadi@gmail.com",
+      "password": "priya@123",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "name": "Noise Pulse 2 Max",
+      "price": "₹2,499",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Moto edge 30",
+      "price": "₹25,000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "5G , Ram 8Gb ,Memory 128Gb ,Snapdragon Processor ,4000Mh Battery",
+      "image": "https://www.jiomart.com/images/product/original/492912754/motorola-moto-edge-30-5g-128gb-8gb-ram-meteor-grey-mobile-phone-digital-o492912754-p591469909-0-202205192213.jpeg?im=Resize=(420,420)",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 1,
+      "id": 3
+    }
+  ],
+  "orders": []
+}

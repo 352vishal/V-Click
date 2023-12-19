@@ -1,0 +1,49 @@
+<div class="container">
+  <div *ngIf="!showLogin">
+    <h2 class="login-title">User Sign-Up</h2>
+    <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="login-form">
+      <div>
+        <label for="name">Name </label>
+        <input id="name" type="text" placeholder="Eren Buruk" name="name" required ngModel />
+      </div>
+
+      <div>
+        <label for="email">Email </label>
+        <input id="email" type="email" placeholder="me@example.com" name="email" required ngModel />
+      </div>
+
+      <div>
+        <label for="password">Password </label>
+        <input id="password" type="password" placeholder="password" name="password" required ngModel />
+      </div>
+
+      <button class="btn btn--form" type="submit" value="Log in"> Sign Up</button>
+      <span class="extra-line">
+        <span>Already have an account?</span>&nbsp;
+        <a (click)="openLogin()">Sign-in</a>
+      </span>
+    </form>
+  </div>
+  <div *ngIf="showLogin">
+    <h2 class="login-title">User Login</h2>
+    <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="login-form">
+      <div>
+        <p class="error-p">{{authError}}</p>
+        <label for="email">Email </label>
+        <input id="email" type="email" placeholder="me@example.com" name="email" email #email="ngModel" required ngModel />
+        <p class="invalid-input"><span *ngIf="email.invalid && email.touched " >Please enter valid input</span></p>
+      </div>
+      <div>
+        <label for="password">Password </label>
+        <input id="password" type="password" placeholder="password" name="password" minlength="2" maxlength="20" #password="ngModel" required ngModel />
+        <p class="invalid-input"><span *ngIf="password.invalid && password.touched " >Please enter valid input</span></p>
+      </div>
+      
+      <button [disabled]="userLogin.invalid" class="btn btn--form" type="submit" value="Log in"> Sign-in</button>
+      <span class="extra-line">
+        <span>Don't have account?</span>&nbsp;
+        <a (click)="openSignUp()">Sign Up</a>
+      </span>
+    </form>
+  </div>
+</div>
