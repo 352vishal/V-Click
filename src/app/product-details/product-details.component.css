@@ -222,6 +222,7 @@
     border: solid 2px #212529; 
     transition: all 0.5s ease-in-out 0s;
     text-decoration: none;
+	cursor: pointer;
 }
 .round-black-btn:hover,
 .round-black-btn:focus {

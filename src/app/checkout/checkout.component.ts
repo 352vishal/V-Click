@@ -54,10 +54,21 @@ constructor(private product: ProductService, private router: Router){}
         userId,
         id: undefined
       }
+
+      this.cartData?.forEach((item) => {
+        setTimeout(() => {
+          item.id && this.product.deleteCartItems(item.id);
+        }, 700)
+      })
+
       this.product.orderNow(orderData).subscribe((result) => {
         if (result) {
-          alert('Order Placed')
-            // this.router.navigate(['/my-orders'])
+          // alert('Your Order has been Placed');
+          this.orderMsg = "Order has been placed";
+          setTimeout(() => {
+            this.orderMsg = undefined;
+            this.router.navigate(['/my-orders'])
+          }, 4000);
         }
       })
     }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { product } from '../data-types';
+import { ProductService } from '../service/product.service';
+import { order } from '../data-types';
 
 
 @Component({
@@ -9,10 +10,25 @@ import { product } from '../data-types';
 })
 export class MyOrdersComponent  implements OnInit{
 
-  constructor(){}
+  orderData:order[]|undefined
+  constructor(private product:ProductService){}
 
   ngOnInit(): void {
-    
+    this.getOrderList();
+  }
+
+  cancelOrder(orderId:number|undefined){
+    orderId && this.product.cancelOrder(orderId).subscribe((result)=>{
+      // if(result){
+        this.getOrderList();
+      // }
+    })
+  }
+
+  getOrderList(){
+    this.product.orderList().subscribe((result)=>{
+      this.orderData=result;
+    })
   }
 
 }

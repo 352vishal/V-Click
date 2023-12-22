@@ -34,7 +34,7 @@
   "products": [
     {
       "name": "Moto edge 30",
-      "price": "₹25,000",
+      "price": "25000",
       "category": "Mobile",
       "color": "Black",
       "description": "5G , Ram 8Gb ,Memory 128Gb ,Snapdragon Processor ,4000Mh Battery",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Apple iPhone 14",
-      "price": "₹130,000",
+      "price": "130000",
       "category": "Mobile",
       "color": "purpal",
       "description": "Apple product",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Noise Pulse 2 Max",
-      "price": "₹2,499",
+      "price": "2499",
       "category": "Watch",
       "color": "Black",
       "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
@@ -61,7 +61,7 @@
     },
     {
       "name": "Sony XB910N Headphone",
-      "price": "₹14,990",
+      "price": "14999",
       "category": "Headphone ",
       "color": "Black",
       "description": "Sony XB910N Wireless Bluetooth Headphone with Extra Bass, Upto 30 hrs of playtime, Multipoint connection, Voice assistant, Noise cancellation, Extra",
@@ -99,33 +99,26 @@
       "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
       "quantity": 1,
       "productId": 5,
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "name": "Apple iPhone 14",
-      "price": "₹130,000",
-      "category": "Mobile",
-      "color": "purpal",
-      "description": "Apple product",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yzJoE7WlL._SX679_.jpg",
-      "quantity": 1,
-      "productId": 2,
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "name": "Noise Pulse 2 Max",
-      "price": "₹2,499",
-      "category": "Watch",
-      "color": "Black",
-      "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
-      "quantity": 1,
-      "productId": 5,
       "userId": 2,
       "id": 4
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "email": "vishalhariyani5@gmail.com",
+      "address": "701, A-13,Aishwariyam humara, , Chikhali, Pune",
+      "contact": "8390299946",
+      "totalPrice": 172598,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "vishal.hariyani41@gmail.com",
+      "address": "vishal hariyani",
+      "contact": "8746543234",
+      "totalPrice": 155100,
+      "userId": 1,
+      "id": 2
+    }
+  ]
 }

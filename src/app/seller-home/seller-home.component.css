@@ -32,7 +32,7 @@ body {
 }
 .table-title {
     padding-bottom: 15px;
-    background: #299be4;
+    background: #777c83;
     color: #fff;
     padding: 16px 30px;
     margin: -20px -25px 10px;
@@ -172,4 +172,7 @@ table.table .avatar {
     float: left;
     margin-top: 10px;
     font-size: 13px;
+}
+.trash-color{
+    color: #ff5b5b;
 }
