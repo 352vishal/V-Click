@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../service/product.service';
 import { order } from '../data-types';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -9,7 +10,8 @@ import { order } from '../data-types';
   styleUrl: './my-orders.component.css'
 })
 export class MyOrdersComponent  implements OnInit{
-
+  icon=faShoppingCart;
+  
   orderData:order[]|undefined
   constructor(private product:ProductService){}
 

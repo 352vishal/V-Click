@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { warn } from 'node:console';
+
 import { ProductService } from '../service/product.service';
 import { product } from '../data-types';
 
@@ -9,7 +9,9 @@ import { product } from '../data-types';
   styleUrl: './seller-add-product.component.css'
 })
 export class SellerAddProductComponent implements OnInit {
+
   addProductMessage: string | undefined;
+
   constructor(private product: ProductService) { }
 
   ngOnInit(): void {

@@ -1,55 +1,94 @@
-<div class="container">
-  <div class="small-container">
-    <div class="row row-2">
-      <h2>All Products</h2>
-      <select>
-        <option value="">Default Shorting</option>
-        <option value="">Short by price</option>
-        <option value="">Short by popularity</option>
-        <option value="">Short by rating</option>
-        <option value="">Short by sale</option>
-      </select>
-    </div>
-    <div class="row">
-      <div class="col-4" *ngFor="let item of trendyProducts">
-        <img src="{{item.image}}" alt="" />
-        <h4>{{item.name}}</h4>
-        <div class="rating">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="far fa-star"></i>
+<section id="home">
+    <div class="home_page ">
+        <div class="home_img ">
+            <img src="https://i.postimg.cc/t403yfn9/home2.jpg" alt="img ">
         </div>
-        <p>{{item.price}}</p>
-        <p>{{item.color}}</p>
-        <div class="product-footer">
-          <a routerLink="/details/{{item.id}}">View Details</a>
-          <a href="">Add to Cart</a>
+        <div class="home_txt ">
+            <p class="collectio ">SUMMER COLLECTION</p>
+            <h2>FALL - WINTER<br>Collection 2023</h2>
+            <div class="home_label ">
+                <p>A specialist label creating luxury essentials. Ethically crafted<br>with an unwavering commitment to exceptional quality.</p>
+            </div>
+            <button><a href="#sellers">SHOP NOW</a><i class='bx bx-right-arrow-alt'></i></button>
+            <div class="home_social_icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-pinterest'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
         </div>
-      </div>
-  
     </div>
-  
-    <div class="page-btn">
-      <span>1</span>
-      <span>2</span>
-      <span>3</span>
-      <span>4</span>
-      <span>&#8594;</span>
+</section>
+<section id="collection">
+    <div class="collections container">
+        <div class="content" *ngFor="let item of popularProducts">
+            <img src="{{item.image}}" alt="img" />
+            <div class="img-content">
+                <p>Electronics Collections</p>
+                <button><a href="#sellers">SHOP NOW</a></button>
+            </div>
+        </div>
     </div>
-  </div>
+</section>
+<section id="sellers">
+    <div class="seller container">
+        <h2>New Arrivals</h2>
+        <div class="best-seller" *ngFor="let item of trendyProducts">
+            <div class="best-p1">
+                <img src="{{item.image}}" alt="img">
+                <div class="best-p1-txt">
+                    <div class="name-of-p">
+                        <p>{{item.name}}</p>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    <div class="price">
+                        {{item.price | currency}}
+                        <div class="colors">
+                            <i class='bx bxs-circle red'></i>
+                            <i class='bx bxs-circle blue'></i>
+                            <i class='bx bxs-circle white'></i>
+                        </div>
+                    </div>
+                    <div class="buy-now">
+                        <button><a>Add to Cart</a></button>
+                        <button><a routerLink="/details/{{item.id}}">View Details</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="contact container">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.121169986175!2d73.90618951442687!3d18.568575172551647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c131ed5b54a7%3A0xad718b8b2c93d36d!2sSky%20Vista!5e0!3m2!1sen!2sin!4v1654257749399!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <form action="https://formspree.io/f/xzbowpjq" method="POST">
+        <div class="form">
+            <div class="form-txt">
+                <h4>INFORMATION</h4>
+                <h1>Contact Us</h1>
+                <span>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                    attention.</span>
+                <h3>USA</h3>
+                <p>195 E Parker Square Dr, Parker, CO 801<br>+43 982-314-0958</p>
+                <h3>India</h3>
+                <p>HW95+C9C, Lorem ipsum dolor sit.<br>411014</p>
+            </div>
+            <div class="form-details">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+                <button>SEND MESSAGE</button>
+            </div>
+        </div>
+    </form>
 </div>
-
-<script>
-  var MenuItems = document.getElementById('MenuItems');
-  MenuItems.style.maxHeight = '0px';
-
-  function menutoggle() {
-    if (MenuItems.style.maxHeight == '0px') {
-      MenuItems.style.maxHeight = '200px';
-    } else {
-      MenuItems.style.maxHeight = '0px';
-    }
-  }
-</script>
+</section>

@@ -7,7 +7,7 @@ import { product } from '../data-types';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-  popularProducts:undefined|product[];
+  popularProducts:undefined| product[];
   trendyProducts:undefined | product[];
   constructor(private product:ProductService){}
   ngOnInit(): void {
