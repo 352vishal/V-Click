@@ -35,6 +35,8 @@ nav .content {
 nav .content .links {
   margin-left: 80px;
   display: flex;
+  position: absolute;
+  right: 115px;
 }
 
 .content .logo a {
@@ -49,10 +51,28 @@ nav .content .links {
 }
 
 fa-icon.ng-fa-icon {
-  padding-left: 15px;
+  position: relative;
+  padding-left: 37px;
   font-size: 21px;
   color: white;
   cursor: pointer;
+  /* top: 17px; */
+}
+
+.cart-quantity .cart-items {
+  position: absolute;
+  top: -5px;
+  margin: -5px 28px 0px 46px;
+  background: #f09d51;
+  padding: 0px 5px;
+  border-radius: 43%;
+  color: white;
+  font-size: 14px;
+}
+
+.cart-quantity{
+  position: absolute;
+  right: 70px;
 }
 
 .content .links li a,
@@ -60,7 +80,7 @@ fa-icon.ng-fa-icon {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  padding: 9px 17px;
+  /* padding: 9px 17px; */
   border-radius: 5px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -70,10 +90,10 @@ fa-icon.ng-fa-icon {
   display: none;
 }
 
-.content .links li a:hover,
+/* .content .links li a:hover,
 .content .links li label:hover {
   background: #323c4e;
-}
+} */
 
 .wrapper .search-icon,
 .wrapper .menu-icon {
@@ -184,7 +204,7 @@ fa-icon.ng-fa-icon {
 @media screen and (max-width: 1250px) {
   .wrapper nav {
     max-width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
 
   nav .content .links {
@@ -275,6 +295,28 @@ fa-icon.ng-fa-icon {
     line-height: 30px;
     border-radius: 5px !important;
   }
+
+  /* my css media query */
+
+  .cart-quantity .cart-items {
+    top: -5px;
+  }
+
+  .cart-quantity {
+    position: absolute;
+    right: 64px;
+}
+.user-name{
+  position: sticky;
+}
+.logo {
+  position: absolute;
+  left: 60px;
+}
+.content .logo a{
+  font-size: 22px;
+} 
+
 }
 
 @media screen and (max-width: 400px) {

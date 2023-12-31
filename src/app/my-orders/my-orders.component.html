@@ -1,51 +1,31 @@
 <div class="container">
-    <div class="table-responsive pb-5">
-        <h1 class="order-list">My Orders</h1>
-        <table id="tbOrderHistory" class="table border ps-table w-100 mb-3" >      
-            <thead>
-                <tr>
-                    <th class="font-weight-bold py-2 border-0">Order</th>
-                    <th class="font-weight-bold py-2 border-0 quantity">Order ID</th>
-                    <th class="font-weight-bold py-2 border-0 ">Price</th>
-                    <th class="font-weight-bold py-2 border-0 ">Status</th>
-                    <th class="font-weight-bold py-2 border-0 ">Track Order</th>
-                    <th class="font-weight-bold py-2 border-0 ">Action</th>
-                </tr>
-                <tr *ngFor="let order of orderData">
-                    <td >
-                        <div>
-                            <fa-icon [icon]="icon"></fa-icon>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                           {{order.id}}
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            {{order.totalPrice}}
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            Preparing your order
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a>Track Status</a>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <button type="button" class="btn btn-secondary" (click)="cancelOrder(order.id)">Cancel Order</button>
-                        </div>
-                    </td>  
-                </tr>            
-            </thead>
-            <tbody>
-            </tbody>
+    <div class="table-responsive">
+        <table class="table">
+            <h1 class="order-list">My Orders</h1>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Orders</th>
+                    <th scope="col">OrderID</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">TrackingID</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let order of orderData">
+                    <th scope="row">1</th>
+                    <td><fa-icon [icon]="icon"></fa-icon></td>
+                    <td>{{order.id}}</td>
+                    <td>{{order.totalPrice | currency}}</td>
+                    <td>Preparing your order</td>
+                    <td><a>004321</a></td>
+                    <td> <button type="button" class="btn btn-secondary" (click)="cancelOrder(order.id)">Cancel</button></td>
+                  </tr>
+                </tbody>
+              </table>
         </table>
-    </div>
+      </div>
 </div>

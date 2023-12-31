@@ -1,40 +1,84 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+
 <div class="container">
-    <div class="cart-page">
-        <h1>
-            Cart Page
-        </h1>
-        <div class="row">
-        <div class="col-sm-8 details">
-            <ul *ngFor="let cart of cartData">
-                <li>
-                    <img src="{{cart.image}}" alt="">
-                </li>
-                <li>
-                    <span> {{cart.name}}</span>
-                </li>
-                <li>
-                    <span> Price : {{cart.price}}</span>
-                </li>
-                <li>
-                    <span> Quantity : {{cart.quantity}}</span>
-                </li>
-                <li >
-                   <button class="form-button"(click)="removeToCart(cart.id)" >Remove To Cart</button>
-                </li>
-            </ul>
-            
+    <div class="row">
+        <div class="col-sm-8">
+            <h1 id="top-space">ITEMS</h1>
+            <div class="card mb-3" *ngFor="let cart of cartData">
+                <img class="card-img-top" src="{{cart.image}}" style="width: 20%;" alt="">
+                <div class="row">
+                    <div class="col-6 card-title">
+                        <h1 class="mb-4 product_name">{{cart.name}}</h1>
+                        <p class="mb-2">SHIRT - BLUE</p>
+                        <p class="mb-2">COLOR: BLUE</p>
+                        <p class="mb-3">SIZE: M</p>
+                    </div>
+                    <div class="col-6">
+                        <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item"><input type="text" name="" class="page-link"
+                                    value="{{cart.quantity}}" id="textbox">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 d-flex justify-content-between remove_wish">
+                            <p><i class="fas fa-trash-alt" (click)="removeToCart(cart.id)"></i></p>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end price_money">
+                            <h3><span id="itemval">{{cart.price | currency}}</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
-        <div class="col-sm-4 summary">
-        <h3>Summary</h3>
-        <ul>
-            <li> <span>Amount:</span><span>{{priceSummary.price}}</span></li>
-            <li> <span>Tax:</span><span>{{priceSummary.tax}}</span></li>
-            <li> <span>Delivery:</span><span>{{priceSummary.delivery}}</span></li>
-            <li> <span>Discount:</span><span>{{priceSummary.discount}}</span></li>
-            <li> <span><h4>Total</h4></span> <span><h4>{{priceSummary.total}}</h4></span></li>
-            <button (click)="checkout()" class="form-button max-width" >Checkout</button>
-        </ul>
-        </div>
+        <div class="col-sm-4">
+            <h1 id="top-space">Order Summary</h1>
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <h5 class="card-title">Order Summary</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-7">
+                            <p class="card-text">Sub total</p>
+                            <p class="card-text">Dilevery Charge</p>
+                            <p class="card-text">Offer Discount</p>
+                            <p class="card-text">Tex</p>
+                        </div>
+                        <div class="col-5">
+                            <p class="card-text">{{priceSummary.price | currency}}</p>
+                            <p class="card-text">{{priceSummary.delivery | currency}}</p>
+                            <p class="card-text">{{priceSummary.discount | currency}}</p>
+                            <p class="card-text">{{priceSummary.tax | currency}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-header"></div>
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="card-title">Total Price</h5>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="card-title">{{priceSummary.total | currency}}</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card-header">Total Saving</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card-header">{{priceSummary.discount | currency}}</div>
+                    </div>
+                </div>
+                <button class="btn btn-primary text-uppercase" (click)="checkout()">Checkout</button>
+            </div>
         </div>
     </div>
 </div>

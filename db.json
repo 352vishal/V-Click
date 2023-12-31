@@ -33,24 +33,6 @@
   ],
   "products": [
     {
-      "name": "Moto edge 30",
-      "price": "25000",
-      "category": "Mobile",
-      "color": "Black",
-      "description": "5G , Ram 8Gb ,Memory 128Gb ,Snapdragon Processor ,4000Mh Battery",
-      "image": "https://www.jiomart.com/images/product/original/492912754/motorola-moto-edge-30-5g-128gb-8gb-ram-meteor-grey-mobile-phone-digital-o492912754-p591469909-0-202205192213.jpeg?im=Resize=(420,420)",
-      "id": 1
-    },
-    {
-      "name": "Apple iPhone 14",
-      "price": "130000",
-      "category": "Mobile",
-      "color": "Grey",
-      "description": "Apple product",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yzJoE7WlL._SX679_.jpg",
-      "id": 2
-    },
-    {
       "name": "Noise Pulse 2 Max",
       "price": "2499",
       "category": "Watch",
@@ -67,24 +49,6 @@
       "description": "Sony XB910N Wireless Bluetooth Headphone with Extra Bass, Upto 30 hrs of playtime, Multipoint connection, Voice assistant, Noise cancellation, Extra",
       "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697621646/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/248765_vmyvua.png",
       "id": 6
-    },
-    {
-      "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": "109",
-      "category": "Men's Clothing",
-      "color": "Blue",
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg?im=Resize=(420,420)\"",
-      "id": 7
-    },
-    {
-      "name": "Mens Casual Premium Slim Fit T-Shirts",
-      "price": "22",
-      "category": "Men's Clothing",
-      "color": "White",
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg?im=Resize=(420,420)\"",
-      "id": 8
     },
     {
       "name": "Mens Cotton Jacket",
@@ -175,6 +139,15 @@
       "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
       "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
       "id": 18
+    },
+    {
+      "name": "Apple iPhone 14",
+      "price": "1563",
+      "category": "Mobile",
+      "color": "Grey",
+      "description": "Apple product",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yzJoE7WlL._SX679_.jpg",
+      "id": 20
     }
   ],
   "user": [
@@ -199,18 +172,6 @@
   ],
   "cart": [
     {
-      "name": "Noise Pulse 2 Max",
-      "price": "2499",
-      "category": "Watch",
-      "color": "Black",
-      "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
-      "quantity": 1,
-      "productId": 5,
-      "userId": 1,
-      "id": 5
-    },
-    {
       "name": "Sony XB910N Headphone",
       "price": "14999",
       "category": "Headphone ",
@@ -223,16 +184,28 @@
       "id": 6
     },
     {
-      "name": "Apple iPhone 14",
-      "price": "130000",
-      "category": "Mobile",
-      "color": "Grey",
-      "description": "Apple product",
-      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71yzJoE7WlL._SX679_.jpg",
+      "name": "Noise Pulse 2 Max",
+      "price": "2499",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise Pulse 2 Max 1.85 Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61SSVxTSs3L._SX679_.jpg",
       "quantity": 1,
-      "productId": 2,
-      "userId": 2,
+      "productId": 5,
+      "userId": 1,
       "id": 7
+    },
+    {
+      "name": "Sony XB910N Headphone",
+      "price": "14999",
+      "category": "Headphone ",
+      "color": "Black",
+      "description": "Sony XB910N Wireless Bluetooth Headphone with Extra Bass, Upto 30 hrs of playtime, Multipoint connection, Voice assistant, Noise cancellation, Extra",
+      "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697621646/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/248765_vmyvua.png",
+      "quantity": 2,
+      "productId": 6,
+      "userId": 1,
+      "id": 8
     }
   ],
   "orders": [
@@ -245,12 +218,29 @@
       "id": 1
     },
     {
-      "email": "vishal.hariyani41@gmail.com",
-      "address": "vishal hariyani",
-      "contact": "8746543234",
-      "totalPrice": 155100,
+      "fname": "vishal",
+      "lname": "hariyani",
+      "company": "facile",
+      "address": "701,A-13,Aishwariyam humara, , Chikhali, Pune",
+      "city": "pune",
+      "postcode": "411062",
+      "email": "vishalhariyani5@gmail.com",
+      "tel": "8619647504",
+      "totalPrice": 17708,
       "userId": 1,
-      "id": 2
+      "id": 4
+    },
+    {
+      "fname": "vishal",
+      "lname": "hariyani",
+      "address": "701, A-13,Aishwariyam humara, , Chikhali, Pune",
+      "city": "Pune",
+      "postcode": "411062",
+      "email": "vishalhariyani5@gmail.com",
+      "tel": "8619647504",
+      "totalPrice": 32792,
+      "userId": 1,
+      "id": 5
     }
   ]
 }

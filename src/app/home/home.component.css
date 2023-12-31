@@ -1116,6 +1116,15 @@ iframe {
     cursor: pointer;
 }
 
+/* my css */
+
+.name-of-p p{
+    width: 238px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 /* //....... Media Queries .......// */
 
