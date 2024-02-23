@@ -34,11 +34,11 @@ If you want to see the mock api on your browser you can hit the link: http://loc
 # Project Screenshorts
 
 ## Home Page
-You can check Login
+You can Check
 - Home Page
 - User Login Page
 - User Seller Page
-- 
+  
 ![Home-page](https://github.com/352vishal/V-Click/assets/87866318/6352eb96-9c94-4a16-b438-2e1f517c6f43)
 
 
