@@ -90,8 +90,9 @@ Your Order has Been Placed
 ![order placed](https://github.com/352vishal/V-Click/assets/87866318/b6d6755b-918d-421f-88bd-cba455d0756c)
 
 ## Order List Page
-Check Your Order Details on Order List Page
-
+- Check Your Order Details on Order List Page
+- If User Want to Cancel Your Product Then hit Cancel Button
+  
 ![order page](https://github.com/352vishal/V-Click/assets/87866318/1479b456-6f91-40db-8ef3-b51fc9914a68)
 
 
