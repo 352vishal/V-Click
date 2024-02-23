@@ -34,7 +34,11 @@ If you want to see the mock api on your browser you can hit the link: http://loc
 # Project Screenshorts
 
 ## Home Page
-
+You can check Login
+- Home Page
+- User Login Page
+- User Seller Page
+- 
 ![Home-page](https://github.com/352vishal/V-Click/assets/87866318/6352eb96-9c94-4a16-b438-2e1f517c6f43)
 
 
@@ -45,29 +49,47 @@ If you want to see the mock api on your browser you can hit the link: http://loc
 
 
 ## User Login Page
+You can Login and SignUp Your Account
+Only existing User can Login Page
 
 ![user loin page](https://github.com/352vishal/V-Click/assets/87866318/9963c7c6-6383-4d13-ac0f-a1805925f241)
 
-# User Login Home Page
-
+## User Login Home Page
+You can check your 
+- Order List 
+- Cart List
+- Home Page Product
+- You can Add Multipule Product
+- You can Delete Product from Cart
+- You can Logout Yor Account
+- 
 ![user-login home page](https://github.com/352vishal/V-Click/assets/87866318/0ed2bbb3-2c91-4011-88ed-1b20ee1c6611)
 
 ## Product Details Page
-
+- You can Add Multipule Product Choose Your Product Quantity 
+- You can Remove Product from Product Page
+  
 ![product-page](https://github.com/352vishal/V-Click/assets/87866318/c2aa8772-dc0c-4e3e-bf7e-dd47ca91f12b)
 
 ## Cart Page
+- You can Check Your Product Total Amount
+- Checkout for next page 
 
 ![cart-page](https://github.com/352vishal/V-Click/assets/87866318/7c866820-b4c2-4271-b4a7-5072ccec1dcd)
 
 ## Checkout Page
-
+- Fill Your Billing details
+- Choose Your Payment Method
+- Go Place Order Button
+   
 ![checkout page](https://github.com/352vishal/V-Click/assets/87866318/79370e8f-2fe9-448d-ac86-0e321c5e57da)
 
+Your Order has Been Placed
 
 ![order placed](https://github.com/352vishal/V-Click/assets/87866318/b6d6755b-918d-421f-88bd-cba455d0756c)
 
 ## Order List Page
+Check Your Order Details on Order List Page
 
 ![order page](https://github.com/352vishal/V-Click/assets/87866318/1479b456-6f91-40db-8ef3-b51fc9914a68)
 
@@ -78,6 +100,7 @@ If you want to see the mock api on your browser you can hit the link: http://loc
 
 
 ## Seller Home Page
+
 
 ![seller home page](https://github.com/352vishal/V-Click/assets/87866318/7ef5441f-e492-4707-b6bb-81e6840a4cc5)
 
