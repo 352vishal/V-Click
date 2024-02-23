@@ -29,7 +29,7 @@ Now you can ready to go
 
 Step 11: Open your browser and type: http://localhost:4200
 
-If you want to see the mock api on your browser you can hit the link: http://localhost:3000/
+If you want to see the api on your browser you can hit the link: http://localhost:3000/
 
 # Project Screenshorts
 
