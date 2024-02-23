@@ -23,7 +23,7 @@ Step 8: Open two terminal/command prompt
 
 Step 9: In one run command: `ng serve`
 
-Step 10: Another one run command: `json-server --watch mock-api-data.json`
+Step 10: Another one run command: `npx json-server db.json`
 
 Now you can ready to go
 
