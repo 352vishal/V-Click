@@ -1,27 +1,35 @@
-# VClick
+# Vclick Angular Ecommerce 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
-## Development server
+Vclick Ecommerce Website portal where some of the user(Seller) who want to sell the product and services using this and some of the user(Buyer/End User) who needs the product they can buy from the user(Seller)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Project Setup 
 
-## Code scaffolding
+Run `ng serve` for a dev server. Navigate to Step 1: clone the project: git clone https://github.com/SrikrushnaP/angular-ecommerce.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Step 2: cd angular-ecommerce
 
-## Build
+Step 3: git pull origin develop or master
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Step 4: Install Node form https://nodejs.org/en/
 
-## Running unit tests
+Step 5: npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Step 6: npm install -g json-server (Install JSON mock server)
 
-## Running end-to-end tests
+Step 7: npm install -g @angular/cli  (Install angular CLI)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Step 8: Open two terminal/command prompt
 
-## Further help
+Step 9: In one run command: ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Step 10: Another one run command: json-server --watch mock-api-data.json
+
+Now you can ready to go
+
+Step 11: Open your browser and type: http://localhost:4200
+
+If you want to see the mock api on your browser you can hit the link: http://localhost:3000/
+
+If you want to learn more on mock API you can go through the doc https://www.npmjs.com/package/json-server
