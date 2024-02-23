@@ -6,8 +6,6 @@ Vclick Ecommerce Website portal where some of the user(Seller) who want to sell 
 
 # Project Setup 
 
-Run `ng serve` for a dev server. Navigate to 
-
 Step 1: clone the project: `git clone`
 `https://github.com/352vishal/VClick`
 
