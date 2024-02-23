@@ -37,3 +37,40 @@ If you want to see the mock api on your browser you can hit the link: http://loc
 
 
 ![home](https://github.com/352vishal/V-Click/assets/87866318/e658da50-b6ed-49c9-9b01-83abb7dd2a8c)
+
+
+![home page body](https://github.com/352vishal/V-Click/assets/87866318/0dc7d5d5-8c30-467a-8ab1-b4f788b6ab8f)
+
+
+![user loin page](https://github.com/352vishal/V-Click/assets/87866318/9963c7c6-6383-4d13-ac0f-a1805925f241)
+
+
+![user-login home page](https://github.com/352vishal/V-Click/assets/87866318/0ed2bbb3-2c91-4011-88ed-1b20ee1c6611)
+
+
+![product-page](https://github.com/352vishal/V-Click/assets/87866318/c2aa8772-dc0c-4e3e-bf7e-dd47ca91f12b)
+
+
+![cart-page](https://github.com/352vishal/V-Click/assets/87866318/7c866820-b4c2-4271-b4a7-5072ccec1dcd)
+
+
+![checkout page](https://github.com/352vishal/V-Click/assets/87866318/79370e8f-2fe9-448d-ac86-0e321c5e57da)
+
+
+![order placed](https://github.com/352vishal/V-Click/assets/87866318/b6d6755b-918d-421f-88bd-cba455d0756c)
+
+
+![order page](https://github.com/352vishal/V-Click/assets/87866318/1479b456-6f91-40db-8ef3-b51fc9914a68)
+
+
+![seller page](https://github.com/352vishal/V-Click/assets/87866318/dfa87755-6878-4af8-ba69-e33343815da1)
+
+
+![seller home page](https://github.com/352vishal/V-Click/assets/87866318/7ef5441f-e492-4707-b6bb-81e6840a4cc5)
+
+
+![seller add product](https://github.com/352vishal/V-Click/assets/87866318/05cae07f-40de-4939-a992-de97d9bef95c)
+
+
+![update product](https://github.com/352vishal/V-Click/assets/87866318/3307cd4b-09ba-4720-b027-b050c2e05e5f)
+
