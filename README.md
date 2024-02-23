@@ -95,23 +95,26 @@ Check Your Order Details on Order List Page
 ![order page](https://github.com/352vishal/V-Click/assets/87866318/1479b456-6f91-40db-8ef3-b51fc9914a68)
 
 
-## Seller Page
+## Seller Login Page
+- Seller can also login and signup account
 
 ![seller page](https://github.com/352vishal/V-Click/assets/87866318/dfa87755-6878-4af8-ba69-e33343815da1)
 
 
 ## Seller Home Page
-
+- Seller have freatue to Add and Update Product
 
 ![seller home page](https://github.com/352vishal/V-Click/assets/87866318/7ef5441f-e492-4707-b6bb-81e6840a4cc5)
 
 
 ## Seller Product Add Page
-
+- Seller Add Product
+  
 ![seller add product](https://github.com/352vishal/V-Click/assets/87866318/05cae07f-40de-4939-a992-de97d9bef95c)
 
 
 ## Seller Product Update/Edit Page
+Seller Update and Edit Product
 
 ![update product](https://github.com/352vishal/V-Click/assets/87866318/3307cd4b-09ba-4720-b027-b050c2e05e5f)
 
